@@ -1,0 +1,141 @@
+============================================================
+Relevant Offsets
+============================================================
+
+042BA4 - Points to 08C59368 -> 0837CBCC (Font Images)
+063608 - Menu Data Pointers
+37CBCC - Font Image Data
+CF7BAC - Story Titles Pointers
+CF9D5C - Story Episodes Pointers
+CF9E58 - Pilot Profiles Pointers
+DCA820 - EoF Padding
+
+============================================================
+Menu Data Pointers
+============================================================
+
+Data Structure (8 bytes)
+  Text Pointer - Unsigned Int32
+  Unknown 1    - Unsigned Int32
+
+* 6 structures, one for each selection of the Main Menu
+* Unknown 1 could be the image, background, or menu code
+  pointer. I haven't looked into it
+
+============================================================
+Font Image Data
+============================================================
+
+Character Structure
+  2x2 Tiles
+    8x8 linear bitmap chunks
+    16 bits per pixel, second-to-first
+
+* 1611 structures, one for each character in the font
+* Even though the font definition itself doesn't represent
+  the characters contiguously, the image data is coniguous
+* Some characters appear in a different order from the
+  font definition
+
+============================================================
+Story Titles Pointers
+============================================================
+
+51 Unsigned Int32's that point to the image data for each
+episode of the story.
+
+Image Structure
+  4x14 tiles
+    8x8 linear bitmap chunks
+    16 bits per pixel, second-to-first
+
+* Image is supposedly compressed with LZ77.
+* Image is composed of seven 16-pixel-tall rows
+* Rows are arranged horizontally for title image
+
+============================================================
+Story Episodes Pointers
+============================================================
+
+51 Unsigned Int32's that point to individual pointer tables
+which in turn point to the text data for each individual
+line of text in any given story episode description.
+
+Diagram:
+  All Episodes Pointer Table         - points to:
+  Individual Episode's Pointer Table - points to:
+  Episode's Individual Lines' Text
+
+* Episode Line Pointer tables are terminated with two EOF
+  lines, which are referenced by 085C42E0
+* At least 6 lines must be present before EOF's become
+  effective. Pad with empty lines if necessary
+* Lines are normal text, terminated with 00
+* All lines' text data must begin on a 4-byte boundary
+
+============================================================
+Pilot Profiles Pointers
+============================================================
+
+Data Structure (12 bytes)
+  Pilot Text Pointer   - Unsigned Int32
+  Machine Text Pointer - Unsigned Int32
+  Unknown 1            - Unsigned Int32
+
+* 38 structures, one for each pilot, in the order they
+  appear on the Pilot Profiles menu; left-to-right,
+  top-to-bottom
+* Unknown 1 could be just about anything. I haven't looked
+  into it
+* Pilot and Machine text must begin on a 4-byte boundary
+
+============================================================
+EoF Padding
+============================================================
+
+* Unused portion of the ROM. Free game for any data
+* A few chunks do have data in them, which include the
+  ROM headers for GP Legend and Maximum Velocity among other
+  data. The purpose of these chunks is unknown, so don't
+  overwrite them
+* Padding is composed entirely of FF bytes
+* Actually begins at DCA818, but DCA820 is prettier
+
+============================================================
+Font Character Assignment Specification
+============================================================
+
+16-bit characters, except for control characters
+
+00: String Terminator
+0A: Newline
+
+8060-813F: Windows Code Page 1252 (starting at Space)
+
+Miscellaneous Symbols & Punctuation:
+8140-817E, 8180-81AC, 81B8-81BF, 81C8-81CE,
+81DA-81E8, 81F0-81F7, 81FC
+
+824F-8258: Numerical Digits
+8260-8279: Roman Alphabet (Uppercase)
+8281-829A: Roman Alphabet (Lowercase)
+829F-82F1: Hiragana
+8340-8396: Katakana
+839F-83B6: Greek Alphabet (Uppercase)
+83BF-83D6: Greek Alphabet (Lowercase)
+8440-8460: Cyrillic Alphabet (Uppercase)
+8470-8491: Cyrillic Alphabet (Lowercase)
+849F-84BE: Table Formatting Characters
+8540-8553: Circled Numbers (1 to 20)
+859F-85A8: Roman Numerals
+
+Unknown characters requiring further analysis:
+8600-87FF, 8840-8850
+
+Kanji Character Ranges:
+889F-88FC, 8940-897E, 8980-89FC, 8A40-8A7E,
+8A80-8AFC, 8B40-8B7E, 8B80-8BFC, 8C40-8C7E,
+8C80-8CFC, 8D40-8D7E, 8D80-8DFC, 8E40-8E7E,
+8E80-8EFC, 8F40-8F7E, 8F80-8FFC, 9040-907E,
+9180-91FC, 9240-927E, 9380-93FC, 9440-947E,
+9580-95FC, 9640-967E, 9780-97FC, 9840-9872
