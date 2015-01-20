@@ -316,8 +316,8 @@ namespace StoryTranslatorTool
 
         private void button1_Click(object sender, EventArgs e)
         {
-            vScrollBar1.Value = vScrollBar1.Minimum;
-            textBox2.Text = FormatString(textBox2.Text);
+            //vScrollBar1.Value = vScrollBar1.Minimum;
+            //textBox2.Text = FormatString(textBox2.Text);
             storyList.Stories[listBox1.SelectedIndex].Title = textBox1.Text;
             storyList.Stories[listBox1.SelectedIndex].Text = textBox2.Text;
             storyList.Save("story.xml");
@@ -508,6 +508,11 @@ namespace StoryTranslatorTool
         private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
             DrawString(vScrollBar1.Value);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = FormatString(textBox2.Text);
         }
     }
 }

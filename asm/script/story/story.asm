@@ -24,6 +24,15 @@ StoryEpisodeTitlePointerList:
 	.word StoryEpisode9_Title
 	.word StoryEpisode10_Title
 	.word StoryEpisode11_Title
+	.word StoryEpisode12_Title
+	.word StoryEpisode13_Title
+	.word StoryEpisode14_Title
+	.word StoryEpisode15_Title
+	.word StoryEpisode16_Title
+	.word StoryEpisode17_Title
+	.word StoryEpisode18_Title
+	.word StoryEpisode19_Title
+	.word StoryEpisode20_Title
 
 .org 0x08CF9D5C
 StoryEpisodePointerList:
@@ -38,6 +47,15 @@ StoryEpisodePointerList:
 	.word StoryEpisode9PointerList
 	.word StoryEpisode10PointerList
 	.word StoryEpisode11PointerList
+	.word StoryEpisode12PointerList
+	.word StoryEpisode13PointerList
+	.word StoryEpisode14PointerList
+	.word StoryEpisode15PointerList
+	.word StoryEpisode16PointerList
+	.word StoryEpisode17PointerList
+	.word StoryEpisode18PointerList
+	.word StoryEpisode19PointerList
+	.word StoryEpisode20PointerList
 
 .org 0x08DD0000
 
@@ -55,6 +73,15 @@ EOF:
 	.include episode_9/script.asm
 	.include episode_10/script.asm
 	.include episode_11/script.asm
+	.include episode_12/script.asm
+	.include episode_13/script.asm
+	.include episode_14/script.asm
+	.include episode_15/script.asm
+	.include episode_16/script.asm
+	.include episode_17/script.asm
+	.include episode_18/script.asm
+	.include episode_19/script.asm
+	.include episode_20/script.asm
 
 .align 4
 StoryEpisode1_Title:
@@ -99,6 +126,42 @@ StoryEpisode10_Title:
 .align 4
 StoryEpisode11_Title:
 	.incbin episode_11/title_lz.bin
+
+.align 4
+StoryEpisode12_Title:
+	.incbin episode_12/title_lz.bin
+
+.align 4
+StoryEpisode13_Title:
+	.incbin episode_13/title_lz.bin
+
+.align 4
+StoryEpisode14_Title:
+	.incbin episode_14/title_lz.bin
+
+.align 4
+StoryEpisode15_Title:
+	.incbin episode_15/title_lz.bin
+
+.align 4
+StoryEpisode16_Title:
+	.incbin episode_16/title_lz.bin
+
+.align 4
+StoryEpisode17_Title:
+	.incbin episode_17/title_lz.bin
+
+.align 4
+StoryEpisode18_Title:
+	.incbin episode_18/title_lz.bin
+
+.align 4
+StoryEpisode19_Title:
+	.incbin episode_19/title_lz.bin
+
+.align 4
+StoryEpisode20_Title:
+	.incbin episode_20/title_lz.bin
 
 .close
  ; make sure to leave an empty line at the end
