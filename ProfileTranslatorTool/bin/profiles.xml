@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProfileList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProfilesArray>
+    <ProfileObject>
+      <Name>Captain Falcon</Name>
+      <BloodType>0</BloodType>
+      <Age>0</Age>
+      <BirthDay>10</BirthDay>
+      <BirthMonth>4</BirthMonth>
+      <CharacterProfile>Ｆ－ＺＥＲＯグラン
+プリにおける究極の
+パイロット。
+その素顔はナゾに包
+まれており、一般的
+にはＦ－ＺＥＲＯパ
+イロットかスゴうで
+の賞金かせぎだと
+言われている。
+いつか彼の真の目的
+が明らかにされるか
+もしれない・・・。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー０７
+
+言わずと知れたキャ
+プテンファルコンの
+愛機。
+マシンスペックを見
+るかぎり飛びぬけた
+性能では無いが、
+過酷なＦ－ＺＥＲＯ
+グランプリのじょう
+きょう下においてあ
+らゆる局面にも対応
+できるぜつみょうの
+セッティングがほど
+こされている。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Dr. Stewart</Name>
+      <BloodType>2</BloodType>
+      <Age>42</Age>
+      <BirthDay>14</BirthDay>
+      <BirthMonth>2</BirthMonth>
+      <CharacterProfile>高機動小隊の一員で
+有能な外科医。
+ジョディの相談役で
+もある。元は宇宙連
+邦の有能なおかかえ
+医師だったが所長の
+の命を受けジョディ
+のサポート役として
+高機動小隊にはけん
+された。
+パイロットとしての
+うでも一流だ。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー０３
+
+ボディはデリケート、
+グリップも弱く、
+コーナリングのテク
+ニックを必要とする
+マシンだが、ストレ
+ートでのブースター
+の加速、スピードは
+他のマシンを寄せつ
+けない。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Pico</Name>
+      <BloodType>3</BloodType>
+      <Age>124</Age>
+      <BirthDay>18</BirthDay>
+      <BirthMonth>5</BirthMonth>
+      <CharacterProfile>とくしゅ部隊に所属
+していた元軍人で
+現在の姿は、やとわ
+れヒットマンか
+Ｆ－ＺＥＲＯパイ
+ロット。
+どちらかと言えばス
+ナイパーとしてやと
+われることが多いら
+しく、Ｆ－ＺＥＲＯ
+参戦は彼のしゅみ。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー０６
+
+元々軍用マシンだっ
+ただけに、戦闘重視
+のチューニングが
+ほどこされている。
+ボディはがんじょう、
+ブースト性能も十分。
+グリップに少々不安
+が残るが、テクニッ
+クでカバー出来る
+はんいだ。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Samurai Gorox</Name>
+      <BloodType>3</BloodType>
+      <Age>45</Age>
+      <BirthDay>22</BirthDay>
+      <BirthMonth>4</BirthMonth>
+      <CharacterProfile>宇宙とうぞく団の
+ボスとしてその名は
+有名である。
+自らキャプテンファ
+ルコンをライバル視
+していて、いつか決
+着をつけたいと思っ
+ている。
+本人いわく殺しは決
+してやらないらしい。
+妻のリサを心底愛し
+ているが、たがいに
+風来坊で同居はして
+いない。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー０５
+
+耐久力、最高速重視
+のゴローの愛機。
+加速こそにぶいが、
+最高速は他のマシン
+の追ずいをゆるさな
+い。操作しやすいが、
+おくの深いマニアッ
+クなマシンと言える。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Jody Summer</Name>
+      <BloodType>1</BloodType>
+      <Age>0</Age>
+      <BirthDay>21</BirthDay>
+      <BirthMonth>2</BirthMonth>
+      <CharacterProfile>銀河警察高機動小隊
+隊長。
+リュウをよみがえら
+せたのは彼女の意思
+による。
+冷静な判断力と、
+じん速な行動力を
+持つ。
+いつもメンバーに
+ゲキを飛ばしている
+が、女性らしい優し
+い一面ものぞかせる。
+人望は厚い。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー０２
+
+グリップ性能はすば
+らしく、いかなるタ
+イトなコーナーもグ
+リップ走行でクリア
+出来る。
+マシンの性能に合わ
+せた、彼女のライン
+取りのセンスもすば
+らしい。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Mighty Gazzele</Name>
+      <BloodType>8</BloodType>
+      <Age>37</Age>
+      <BirthDay>27</BirthDay>
+      <BirthMonth>8</BirthMonth>
+      <CharacterProfile>元銀河警察の有能な
+スパイだったガゼル
+はある事件をきっか
+けにその肉体を失う。
+しかしスチュワート
+の手により、サイボ
+ーグとして復活する。
+なぜ彼がスチュワー
+トによってそせい
+されたのか？
+ナゾの多い存在だ。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー０１
+
+サイボーグであるガ
+ゼルに合わせ、マシ
+ン自体のボディ強度
+は最小限にとどめ、
+ブースト性能を高め
+ている。グリップも
+悪くないが、あつか
+うには強度な肉体と
+精神力が必要だ。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Baba</Name>
+      <BloodType>2</BloodType>
+      <Age>19</Age>
+      <BirthDay>30</BirthDay>
+      <BirthMonth>6</BirthMonth>
+      <CharacterProfile>惑星「ジャイアン」
+の大自然の中で育っ
+た人並はずれた野性
+的なカンと、じゅう
+なんな肉体を武器に
+Ｆ－ＺＥＲＯに参戦
+したが、その世間
+知らずな所がゾーダ
+に利用され、言いな
+りになってしまって
+いる。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー０４
+
+ボディもがんじょう
+でグリップも申し分
+ないがブースト性能
+に不満が残る。
+勝利寸前にスチュ
+ワートにホームスト
+レートをブースター
+で追い越され優勝を
+のがした経験がある。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Octoman</Name>
+      <BloodType>3</BloodType>
+      <Age>0</Age>
+      <BirthDay>8</BirthDay>
+      <BirthMonth>8</BirthMonth>
+      <CharacterProfile>遠くはなれた惑星タ
+コラから、全タコラ
+人の期待と１００人
+もいる彼の子供のた
+めにこころざしも
+高くＦ－ＺＥＲＯに
+参戦したが、その
+勝利にはほど遠く、
+経費がかさむばかり。
+そんな中、ゾーダの
+ゆうわくに負けてし
+まい、手下になって
+しまっているのだが。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー０８
+
+元々は中古のマシン
+を買い取ってコツコ
+ツと改良を続けてい
+たのだが、ゾーダら
+の資金えん助により
+レースにおいて先頭
+集団と戦える性能に
+なりつつある。
+ボディ、ブーストも
+トップクラスな上に
+ボディの軽さも
+みりょく。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Clash</Name>
+      <BloodType>3</BloodType>
+      <Age>55</Age>
+      <BirthDay>24</BirthDay>
+      <BirthMonth>12</BirthMonth>
+      <CharacterProfile>高機動小隊メカニッ
+ク責任者。リュウの
+操るドラゴンバード
+の設計者でもある。
+その見た目とは裏腹
+に温厚な性格でチー
+ムからの信らいも
+とても厚い。
+自らもマシンを操り、
+レースに参戦する
+こともある。
+背中に背負ったマ
+ジックハンドは彼の
+ジマンの発明である。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー２９
+
+レースを完走する
+ことを目標にチュー
+ニングされている
+耐久力重視型の
+マシン。
+実際のレースから
+さまざまなデータ
+収集を行い、リュウ
+やジャックを勝利に
+みちびくのがその
+目的である。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Ead</Name>
+      <BloodType>8</BloodType>
+      <Age>0</Age>
+      <BirthDay>16</BirthDay>
+      <BirthMonth>11</BirthMonth>
+      <CharacterProfile>ナゾのそしき
+「ＥＡＤ」によって
+開発されたアンドロ
+イド。
+その性能テストの
+意味もふくめ、高機
+動小隊に配属されて
+いる。
+彼の体にはかくされ
+たさまざまな機能が
+装備されており、
+ブーツに装着されて
+いるノズルを使って
+の大ジャンプなどが
+ある。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー０９
+
+グレートスターは
+正にＥＡＤの性能
+テスト用マシンと
+言える。
+安全性は無視、グ
+リップも弱くテクニ
+カル。しかしブー
+スターだけはトップ
+クラス。
+単純にＥ・Ａ・Ｄの
+性能にしたかった
+だけかも知れない。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Bio Rex</Name>
+      <BloodType>8</BloodType>
+      <Age>9</Age>
+      <BirthDay>15</BirthDay>
+      <BirthMonth>1</BirthMonth>
+      <CharacterProfile>ダークミリオンの科
+学力により化石から
+よみがえった恐竜。
+再生時にＤＮＡ操作
+により、人間並みの
+知能を得た。
+元が肉食恐竜なので
+こうげき的な性格で
+あるが、その反面、
+気弱でドジな部分も
+あり、にくめない。
+オクトマンと組まさ
+れることが多い。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー１５
+
+ダークミリオンから
+あたえられたこのマ
+シンは優勝すること
+よりも他のマシンの
+走行をぼう害するこ
+とを前提につくられ
+ている。
+ブーストパワーをお
+さえた分、耐久力や
+グリップ力が上げら
+れている。まさに
+おじゃまマシンと
+言った所か・・・。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Billy</Name>
+      <BloodType>0</BloodType>
+      <Age>7</Age>
+      <BirthDay>6</BirthDay>
+      <BirthMonth>10</BirthMonth>
+      <CharacterProfile>生まれたときから
+さまざまな訓練を受
+け、より人間に近く、
+そして人間以上の
+せん在能力を引き出
+すために育てられて
+きたサル。
+Ｆ－ＺＥＲＯグラン
+プリにおいて、彼よ
+り順位の低かったも
+のは、だれであろう
+と翌日の新聞、ＴＶ
+でサル以下と評され
+る。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー１１
+
+「サルでも乗れる
+Ｆ－ＺＥＲＯマシン」
+をコンセプトに開発
+されたこの機体は、
+バランス重視のセッ
+ティングがほどされ
+ているがもう一つ飛
+びぬけた個性が感じ
+られない。
+あとはビリー自身の
+せん在能力にかけて
+みるしかないのであ
+ろうか・・・・・。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Silver Neelsen</Name>
+      <BloodType>1</BloodType>
+      <Age>98</Age>
+      <BirthDay>3</BirthDay>
+      <BirthMonth>3</BirthMonth>
+      <CharacterProfile>Ｆ－ＺＥＲＯ最多出
+場記録保持者。
+「鉄人シルバー」と
+呼ばれているが、
+ここ数年は勝利に見
+放されている。
+他のパイロットから
+は口うるさい老人だ
+とけむたがられてい
+るが、キャプテン
+ファルコンは彼のこ
+とを尊敬している。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー２３
+
+旧型のＦ－ＺＥＲＯ
+マシン。
+そのセッテイングは
+マニアックで、相当
+なコーナリングテク
+ニックが要求される。
+そのグリップ性能を
+マスターすれば、
+相当なポテンシャル
+をはっきするのだが。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Gomar &amp; Shioh</Name>
+      <BloodType>7</BloodType>
+      <Age>0</Age>
+      <BirthDay>25</BirthDay>
+      <BirthMonth>5</BirthMonth>
+      <CharacterProfile>フリカケール人は
+生まれた時から死ぬ
+まで２人で行動する
+習性がある。
+よって彼らのエント
+リーは２人で１人の
+あつかいになる。
+マシンも２人乗りで
+ぜつみょうなコンビ
+ネーションでマシン
+を操作する。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー２２
+
+ブーストパワーは強
+力で、グリップ力も
+悪くなく、かなり
+ポテンシャルの高い
+マシン。
+ただしボディ耐久力
+が極めて低く、あつ
+かうにはそれなりの
+テクニックが必要と
+される個性的なマ
+シンだ。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>John Tanaka</Name>
+      <BloodType>1</BloodType>
+      <Age>31</Age>
+      <BirthDay>7</BirthDay>
+      <BirthMonth>5</BirthMonth>
+      <CharacterProfile>銀河警察本部長。
+ジョディら高機動
+小隊の責任者。
+一見、温厚で思りょ
+深いしんしを演じて
+いるが、内心は気が
+弱く、決断力に欠け
+ている。
+連邦からの命令と
+ジョディらの勝手な
+行動にふり回され、
+右往左往している。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー２６
+
+いつもはあまりグ
+ランプリに参加しな
+いタナカだが、一応
+Ｆ－ＺＥＲＯマシン
+はあたえられている。
+その性能はかなり
+テクニカルで、実は
+タナカ自身が一流の
+パイロットであるこ
+とを示している。
+ブースターの性能は
+バツグンだ。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Mrs Arrow</Name>
+      <BloodType>3</BloodType>
+      <Age>27</Age>
+      <BirthDay>26</BirthDay>
+      <BirthMonth>8</BirthMonth>
+      <CharacterProfile>スーパーアローの妻
+でありその相棒。
+夫のスーパーアロー
+とはちがい、彼女の
+Ｆ－ＺＥＲＯパイ
+ロットとしてのうで
+は確かだ。
+つねに夫をかげでサ
+ポートし、かん大に
+見守っている心強い
+女性。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー２１
+
+スーパーアローの操
+るキングメテオと
+ほぼ同じ性能。加速
+とグリップのバラン
+スはすばらしく、
+十分に優勝をねらえ
+るのだが、いつも夫
+の心配をしている
+彼女は、なかなか
+レースに集中できな
+いようだ。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Blood Falcon</Name>
+      <BloodType>4</BloodType>
+      <Age>0</Age>
+      <BirthDay>4</BirthDay>
+      <BirthMonth>10</BirthMonth>
+      <CharacterProfile>ブラックシャドーが
+つくり出した、キャ
+プテンファルコンの
+クローン。
+その能力はキャプ
+テンファルコンと
+同等で、ちがうのは
+悪に洗脳されたその
+心だけである。
+ブラックシャドーの
+右うでとしてリュウ
+たちの前に立ちはだ
+かる。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー２５
+
+乗りこなすのには、
+かなりのテクニック
+が必要とされる。
+がんじょうなボディ
+や強力なブースター
+はそのレースを荒ら
+し、キャプテンファ
+ルコンを血祭りに
+あげることのみが
+目的なのだ。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Jack Levin</Name>
+      <BloodType>3</BloodType>
+      <Age>24</Age>
+      <BirthDay>5</BirthDay>
+      <BirthMonth>5</BirthMonth>
+      <CharacterProfile>高機動小隊の一員、
+リュウのライバルで
+もある。
+元々はストリート
+ミュージシャンか、
+暴走族。
+ジョディにその歌の
+才能・・・ではなく
+ドライビングテク
+ニックを買われ、
+入隊を決意する。
+女好きだが、本当は
+ジョディのことを
+おもっている？
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー１４
+
+ジャックが暴走族の
+時代から愛用してい
+たマシンを、クラッ
+シュがＦ－ＺＥＲＯ
+用に改造、彼が手足
+のように操作できる、
+グリップ性能に優れ
+たマシンと言えよう。
+マシンのオートナビ
+システムの中には、
+女の子の住所が大量
+にインプットされて
+いる。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>James McCloud</Name>
+      <BloodType>0</BloodType>
+      <Age>32</Age>
+      <BirthDay>13</BirthDay>
+      <BirthMonth>7</BirthMonth>
+      <CharacterProfile>元は銀河警察での
+優しゅうな戦闘機の
+パイロットであった
+が、独立して、やと
+われ遊げき隊「ギャ
+ラクシードッグ」を
+設立。
+その宣伝の意味も
+かねてグランプリに
+参戦している。
+ジョンタナカの部下
+だった時代もある
+らしい。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー１０
+
+戦闘機乗りのその
+ノウハウを生かした
+極めて飛行機に近い
+マシン。
+スリムゆえにボディ
+の耐久力は期待でき
+ないが、その分ブー
+ストとグリップの性
+能は特筆すべきもの
+がある。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Zoda</Name>
+      <BloodType>7</BloodType>
+      <Age>42</Age>
+      <BirthDay>19</BirthDay>
+      <BirthMonth>5</BirthMonth>
+      <CharacterProfile>本名はゾーダック
+ストロベリー。
+２２０１年にブラッ
+クシャドーの手に
+よってよみがえった、
+２０５１年の凶悪
+犯罪者。
+頭につきささった
+パイプで、アドレナ
+リンやドーパミンを
+コントロールして、
+超人的パワーを生み
+出している。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー１３
+
+悪のそしき「ダーク
+ミリオン」が銀河警
+察からぬすみ出した
+だんどうミサイルを
+改造して作られた
+マシン。
+ブースター性能が
+すばらしいが、きば
+く装置がマシン内に
+残されており、その
+事実は、ゾーダ本人
+に知らされていない。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Michael Chain</Name>
+      <BloodType>1</BloodType>
+      <Age>39</Age>
+      <BirthDay>16</BirthDay>
+      <BirthMonth>12</BirthMonth>
+      <CharacterProfile>宇宙暴走族「ブラ
+ディーチェーン」の
+ヘッドで、数年前は
+何万人と言う部下を
+ほこっていた。
+その手下たちに自分
+の走りを見せるため
+Ｆ－ＺＥＲＯに参戦
+したが、その効果は
+うすく、むしろ脱退
+するメンバーが後を
+絶たない。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー２４
+
+相手をクラッシュ
+させて上位をねらう
+というマイケルの走
+り方に合わせてボ
+ディの強度は最高ク
+ラスのものになって
+いる。
+レースに勝つのでは
+なくライバルをたお
+すのが彼の走り方な
+のだ。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Super Arrow</Name>
+      <BloodType>0</BloodType>
+      <Age>35</Age>
+      <BirthDay>24</BirthDay>
+      <BirthMonth>9</BirthMonth>
+      <CharacterProfile>自称正義のヒーロー。
+ドジでオッチョコ
+チョイな部分が目立
+つが、肉体は強じん
+で心優しくその資質
+は十分ではある。
+Ｆ－ＺＥＲＯパイ
+ロットとしてのうで
+はイマイチ。妻のミ
+セスアローや相棒の
+フクロウロボットの
+ズックに支えられて
+いる。恐妻家。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー２０
+
+元は彼の妻、一流パ
+イロットであるミセ
+スアローの選んだ
+マシン、クイーンメ
+テオを改造したもの。
+その操作性やスピー
+ドはバツグンだがボ
+ディの強度が心細い
+ので気をつけなけれ
+ばならない。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Kate Alen</Name>
+      <BloodType>3</BloodType>
+      <Age>25</Age>
+      <BirthDay>24</BirthDay>
+      <BirthMonth>12</BirthMonth>
+      <CharacterProfile>超人気歌手。
+Ｆ－ＺＥＲＯオープ
+ニングイベントで
+歌って以来、その
+レースのとりこに
+なり、自己資金で
+自分もレースに参戦。
+彼女のマシンは性能
+もさることながら、
+そのカーオーディオ
+システムのスゴさも
+有名だ。
+ジョンタナカが
+彼女の大ファン。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー１２
+
+操作しやすく、安全
+性を重視したマシン。
+その性能からデザ
+インまで彼女の意見
+が反映されており、
+クラッシュに言わせ
+るとアマチュアが
+つくったマシンらし
+いが、レースでは
+なかなか健とうして
+いる。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Roger Buster</Name>
+      <BloodType>0</BloodType>
+      <Age>41</Age>
+      <BirthDay>10</BirthDay>
+      <BirthMonth>5</BirthMonth>
+      <CharacterProfile>本職は、惑星間運送
+業者。相棒のドラク
+につき合い、受取人
+不明の荷物だった
+Ｆ－ＺＥＲＯマシン
+で参戦している。
+最初グランプリには
+あまり興味を示して
+いなかったが次第に
+Ｆ－ＺＥＲＯの世界
+のとりこになり、今
+では一流パイロット
+の仲間入りを果たし
+ている。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー２８
+
+ブーストとグリップ
+の性能は比かく的高
+いが、ボディの強度
+に欠かんがあり、軽
+量マシン並みに弱い。
+そんな性能を逆手に
+取ってロジャーは
+次々とドライビング
+テクニックをマス
+ターしている。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Leon</Name>
+      <BloodType>0</BloodType>
+      <Age>16</Age>
+      <BirthDay>21</BirthDay>
+      <BirthMonth>10</BirthMonth>
+      <CharacterProfile>惑星ズー出身。
+彼らはいつもは地球
+人のような容姿だが、
+レースなどの極限
+じょう態において、
+さまざまなケモノに
+変身する。
+レオンにおいては
+真の姿は正にオオカ
+ミで、その本能むき
+出しのパワーでグ
+ランプリを制する。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー１９
+
+一般車両を改造した
+だけあって、操作性
+だけは極めて良好な
+マシン。
+少々パワー不足だが、
+変身したレオンには
+そんなハンデは関係
+ない。
+意外とオススメの
+マシンだ。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Draq</Name>
+      <BloodType>8</BloodType>
+      <Age>137</Age>
+      <BirthDay>30</BirthDay>
+      <BirthMonth>3</BirthMonth>
+      <CharacterProfile>運び屋ロジャーバス
+ターの相棒で輸送船
+の操縦を担当して
+いる。
+Ｆ－ＺＥＲＯレース
+の熱きょう的な、
+ファンで、レースに
+参戦することを長年
+夢見ていたが、２年
+前に受取人不明の
+２台のＦ－ＺＥＲＯ
+マシンを発見し、
+ロジャーとそのマ
+シンをかりてしまっ
+ている。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー２７
+
+他のＦ－ＺＥＲＯ
+マシンと比べると、
+少々非力なのはいな
+めないが、ボディの
+軽さとブースト性能
+は評価できる。
+ドラク自身のうで前
+も日々上達している
+らしい。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Beastman</Name>
+      <BloodType>8</BloodType>
+      <Age>30</Age>
+      <BirthDay>0</BirthDay>
+      <BirthMonth>0</BirthMonth>
+      <CharacterProfile>その正体は危険な
+もうじゅうから人々
+を守るハンター。
+自然はかいにより
+ハンターとして生活
+できなくなってきた
+彼は、自らビースト
+マンと名乗って、
+Ｆ－ＺＥＲＯでその
+名をあげて、活動の
+はんいを宇宙にまで
+広げようとしている。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー１８
+
+ハンターである彼の
+マシンにはさまざま
+なじょうきょう下で
+の走行が求められる。
+そんなマシンを
+Ｆ－ＺＥＲＯ仕様に
+改造した結果、すば
+らしいグリップ力を
+持つ走破性重視の
+マシンが誕生した。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Antonio Guster</Name>
+      <BloodType>1</BloodType>
+      <Age>36</Age>
+      <BirthDay>9</BirthDay>
+      <BirthMonth>9</BirthMonth>
+      <CharacterProfile>かつてはサムライ
+ゴローの右うでと呼
+ばれた男だったが、
+次第に対立し、今で
+はゴローへの復しゅ
+うに燃える一匹オオ
+カミの宇宙とうぞく。
+彼の野望は全宇宙の
+Ｆ－ＺＥＲＯファン
+の前でグランプリで
+ゴローをたたきのめ
+すことだ。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー１７
+
+元はゴローのスペア
+マシンだったもの。
+がんじょうなボディ
+はファイアスティン
+グレーと同等だが、
+ブーストが優れてい
+る分、グリップが
+弱く、このマシンを
+乗りこなせる人間は
+宇宙にそうはいない。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Black Shadow</Name>
+      <BloodType>8</BloodType>
+      <Age>0</Age>
+      <BirthDay>15</BirthDay>
+      <BirthMonth>8</BirthMonth>
+      <CharacterProfile>銀河警察に対こうす
+る悪のそしき「ダー
+クミリオン」のボス。
+Ｆ－ＺＥＲＯの賞金
+を資金源とし、そし
+きを拡大させている。
+その悪事はとどまる
+所を知らない。
+彼自身もきょうい的
+なパワーの持ち主で
+キャプテンファル
+コンでさえ簡単に
+手出しができないよ
+うだ。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー３０
+
+レースに勝つことよ
+り他のマシンをはか
+いすることのみを
+目的につくられた
+きょうふのマシン。
+ブラックブルがエン
+トリーするレースで
+は必ず大クラッシュ
+が起こり、ぎせい者
+があとを絶たない。
+マイティガゼルも
+ぎせい者の１人だ。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>The Skull</Name>
+      <BloodType>5</BloodType>
+      <Age>241</Age>
+      <BirthDay>23</BirthDay>
+      <BirthMonth>1</BirthMonth>
+      <CharacterProfile>２０世紀に盛んに行
+われていたＦ－１
+グランプリ。
+トップレーサーだっ
+た彼をダークミリ
+オンの科学力と黒魔
+術によってよみがえ
+らせたという伝説の
+パイロット。
+ブラックシャドーは
+なにかと過去の人物
+をよみがえらせる
+のが好きらしい。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー１６
+
+史上初の生体反応エ
+ネルギーを利用した
+小型オーラエンジン
+をとうさい。
+ブースト性能はすば
+らしい。マシンの
+エネルギー源は
+Ｆ－ＺＥＲＯの観客
+から黒魔術により
+吸い取っているので
+はないか、と言う
+おそろしいウワサも
+ある。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Ryu Suzaku</Name>
+      <BloodType>0</BloodType>
+      <Age>23</Age>
+      <BirthDay>28</BirthDay>
+      <BirthMonth>7</BirthMonth>
+      <CharacterProfile>２０５１年の任務中
+の事故からコールド
+スリープされ、
+２２０１年によみが
+えったスゴうで
+マシン刑事（デカ）。
+彼の使命は宿敵ゾー
+ダを追いつめ、
+Ｆ－ＺＥＲＯグラン
+プリにおいてばく大
+な賞金をかくとく
+しようとする悪に
+勝利することだ。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー００
+
+最新型Ｆ－ＺＥＲＯ
+マシン。
+すべての性能におい
+てバランスのとれた
+マシンだが、その
+せん在能力を引き出
+すのは並たいていの
+パイロットでは不可
+能である。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Lisa Brilliant</Name>
+      <BloodType>0</BloodType>
+      <Age>0</Age>
+      <BirthDay>2</BirthDay>
+      <BirthMonth>8</BirthMonth>
+      <CharacterProfile>サムライゴローの
+女房でゴロー自身も
+彼女には頭が上がら
+ない。
+ゴローには大勢の部
+下が存在するが、
+彼女にあこがれて
+ゴローの部下になっ
+た者も少なくない
+ようだ。
+ゴローは宇宙とうぞ
+くだが、リサは自称
+宇宙海ぞくらしい。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー３３
+
+基本性能はゴローの
+マシンに近いが、
+ゴローのマシン性能
+を上回っている分、
+操作にはテクニック
+が必要だ。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Lucy Liberty</Name>
+      <BloodType>2</BloodType>
+      <Age>20</Age>
+      <BirthDay>18</BirthDay>
+      <BirthMonth>9</BirthMonth>
+      <CharacterProfile>元々はＦ－ＺＥＲＯ
+の大ファンだったが
+プロにも通用する技
+術知識で銀河警察に
+入隊志望、高機動小
+隊のメンバーに配属
+される。
+経験不足でつっ走る
+こともあるが、その
+的確な走りには定評
+がある。クラッシュ
+の元で働いている。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー３１
+
+クラッシュのマシン
+と同じく、勝利する
+ことよりもそのコー
+スやかんきょう、他
+のマシンのデータ
+収集が主な目的。
+とは言うものの、
+エレガンスリバティ
+のポテンシャルは
+高く、コースによっ
+ては上位へ食い込む
+ことが可能なマシン。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Miss Killer</Name>
+      <BloodType>0</BloodType>
+      <Age>20</Age>
+      <BirthDay>3</BirthDay>
+      <BirthMonth>1</BirthMonth>
+      <CharacterProfile>１５０年前のリュウ
+の恋人、ハルカに
+ウリ二つのダークミ
+リオンの殺し屋。
+ブラックシャドーの
+お気に入りの部下
+でもあり、ゾーダと
+対立している。
+彼女が本当にハルカ
+なのかどうかは、
+最後に明らかに
+されるだろう。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー３２
+
+ブラックシャドーが
+自ら開発にたずさわ
+り、ばく大な費用を
+かけて造られた
+マシン。
+耐久力、グリップ性
+能もバツグンでブー
+ストも平均的な数値。
+ミスキラー自身が
+ブラックシャドーの
+教育を受けているの
+で、その走りは当然
+こうげき的だ。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Dark Soldier</Name>
+      <BloodType>8</BloodType>
+      <Age>0</Age>
+      <BirthDay>0</BirthDay>
+      <BirthMonth>0</BirthMonth>
+      <CharacterProfile>ダークミリオン内で
+大量に製造されて
+いるロボット兵の
+一人。
+彼らはそれなりに、
+喜怒哀楽の表現能力
+も持ち、にくめない
+存在である。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー３４
+
+ゾーダの乗るデス
+アンカーを量産型に
+改造したもの。
+テクニックのおとる
+ダークソルジャーに
+あわせて、ボディを
+強化したために重量
+がアップし、ブース
+ト性能も落ちている。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Berserker</Name>
+      <BloodType>8</BloodType>
+      <Age>0</Age>
+      <BirthDay>0</BirthDay>
+      <BirthMonth>0</BirthMonth>
+      <CharacterProfile>とつじょダークミリ
+オンに現れたナゾの
+スゴうでパイロット。
+しかしその正体は
+Ｆ－ＺＥＲＯ運営委
+員会のナゾを探るべ
+くせん入そう査して
+いるキャプテンファ
+ルコンだ。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー７７
+
+ブルーファルコンに
+カムフラージュを
+ほどこした真っ赤な
+マシン。
+ブラックブルに似て
+いるのは、ダークミ
+リオン内にせん入す
+るためと思われるが、
+実はその性能まで
+似たセッティングに
+なっているようだ。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Clank Hughes</Name>
+      <BloodType>3</BloodType>
+      <Age>11</Age>
+      <BirthDay>28</BirthDay>
+      <BirthMonth>7</BirthMonth>
+      <CharacterProfile>両親を失い、こどく
+な天才ハッカーとし
+て生きていたが、
+ある事件をきっかけ
+に、ファルコンハウ
+スの手伝いとして、
+バートの元で暮らす
+ことになる少年。
+バートに死んだ父親
+のオモカゲを感じて
+いる。
+</CharacterProfile>
+      <VehicleProfile>マシンナンバー００
+
+リュウスザクから
+ゆずり受けた。
+リアクターマイトを
+２個装備している。
+</VehicleProfile>
+    </ProfileObject>
+    <ProfileObject>
+      <Name>(unused)</Name>
+      <BloodType>0</BloodType>
+      <Age>0</Age>
+      <BirthDay>0</BirthDay>
+      <BirthMonth>0</BirthMonth>
+      <CharacterProfile />
+      <VehicleProfile />
+    </ProfileObject>
+    <ProfileObject>
+      <Name>Hyper Zoda</Name>
+      <BloodType>7</BloodType>
+      <Age>42</Age>
+      <BirthDay>19</BirthDay>
+      <BirthMonth>5</BirthMonth>
+      <CharacterProfile>身体にうめこまれた
+リアクターマイトの
+力でブラッドファル
+コン軍団の力を吸収
+しパワーアップした
+ゾーダ。
+それにともなってパ
+ワーだけでなく極悪
+さや甘党ぶりも倍増
+した。
+</CharacterProfile>
+      <VehicleProfile>デスアンカーがゾー
+ダのパワーアップに
+連動して変形した。
+ボディの強度が
+大はばにアップして
+いるが、グリップ
+性能が落ちた。
+ブースト性能はあい
+からわずダントツで
+ある。
+</VehicleProfile>
+    </ProfileObject>
+  </ProfilesArray>
+</ProfileList>

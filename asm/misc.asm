@@ -12,11 +12,11 @@
 
 ; Move all ascii font characters up by one pixel				
 .org 0x0837CBCC
-.incbin asm/bin/font.bin
+.incbin "asm/bin/font.bin"
 				
 ; Fix lowercase a in the font				
 ;.org 0x0837EC4C
-;.incbin asm/bin/lowercase_a.bin
+;.incbin "asm/bin/lowercase_a.bin"
 
 ;.org 0x0805B6C0
 ;.area 0x0805B6D4 - 0x0805B6C0
@@ -83,7 +83,7 @@
 ;.pool
 
 Controls_LZ:
-	.incbin asm/bin/controls_eng_lz.bin
+	.incbin "asm/bin/controls_eng_lz.bin"
 
 .close
 

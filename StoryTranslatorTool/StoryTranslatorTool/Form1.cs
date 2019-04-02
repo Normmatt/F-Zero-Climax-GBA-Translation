@@ -128,7 +128,7 @@ namespace StoryTranslatorTool
             output += String.Format(".relativeinclude on") + Environment.NewLine;
             output += Environment.NewLine;
             output += String.Format(";Equs for Scripting and control codes") + Environment.NewLine;
-            output += String.Format("TextNL equ 0x0D") + Environment.NewLine;
+            output += String.Format("TextNL equ 0x0A") + Environment.NewLine;
             output += String.Format("TextEnd equ .byte 0x0") + Environment.NewLine;
             output += Environment.NewLine;
             output += String.Format(".org 0x08CF7BAC") + Environment.NewLine;
@@ -157,7 +157,7 @@ namespace StoryTranslatorTool
 
             for (int i = 0; i < storyList.Stories.Count; i++)
             {
-                output += String.Format("\t.include episode_{0}/script.asm", i + 1) + Environment.NewLine;
+                output += String.Format("\t.include \"episode_{0}/script.asm\"", i + 1) + Environment.NewLine;
             }
 
             for (int i = 0; i < storyList.Stories.Count; i++)
@@ -165,7 +165,7 @@ namespace StoryTranslatorTool
                 output += Environment.NewLine;
                 output += String.Format(".align 4") + Environment.NewLine;
                 output += String.Format("StoryEpisode{0}_Title:", i + 1) + Environment.NewLine;
-                output += String.Format("\t.incbin episode_{0}/title_lz.bin", i + 1) + Environment.NewLine;
+                output += String.Format("\t.incbin \"episode_{0}/title_lz.bin\"", i + 1) + Environment.NewLine;
             }
 
             output += Environment.NewLine;

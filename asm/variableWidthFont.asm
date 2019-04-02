@@ -83,7 +83,7 @@ HandleCharacter_Exit:
 
 .align 4
 WidthTable:
-.incbin bin/widthTable.bin
+.incbin "bin/widthTable.bin"
 
 .close
 

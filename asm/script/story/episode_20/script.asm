@@ -29,6 +29,10 @@ StoryEpisode20PointerList:
 	.word Episode20_Line25
 	.word Episode20_Line26
 	.word Episode20_Line27
+	.word Episode20_Line28
+	.word Episode20_Line29
+	.word Episode20_Line30
+	.word Episode20_Line31
 	.word EOF
 	.word EOF
 
@@ -45,72 +49,84 @@ Episode20_Line4:
 	.ascii "transmission: \"Darling, help me!\""
 	TextEnd
 Episode20_Line5:
-	.ascii "It seems that Mrs. Arrow is in"
+	.ascii ""
 	TextEnd
 Episode20_Line6:
-	.ascii "some kind of trouble."
+	.ascii "It seems that Mrs. Arrow is in"
 	TextEnd
 Episode20_Line7:
-	.ascii "Super Arrow asks Ryu for help"
+	.ascii "some kind of trouble."
 	TextEnd
 Episode20_Line8:
-	.ascii "and heads for the snowy"
+	.ascii "Super Arrow asks Ryu for help"
 	TextEnd
 Episode20_Line9:
-	.ascii "mountain"
+	.ascii "and heads for the snowy"
 	TextEnd
 Episode20_Line10:
-	.ascii "where Mrs. Arrow is."
+	.ascii "mountain"
 	TextEnd
 Episode20_Line11:
-	.ascii "But on the mountain, they find"
+	.ascii "where Mrs. Arrow is."
 	TextEnd
 Episode20_Line12:
-	.ascii "Zoda!"
+	.ascii ""
 	TextEnd
 Episode20_Line13:
-	.ascii "Zoda was on the mountain looking"
+	.ascii "But on the mountain, they find"
 	TextEnd
 Episode20_Line14:
-	.ascii "for a treasure he had lost, and"
+	.ascii "Zoda!"
 	TextEnd
 Episode20_Line15:
-	.ascii "when he saw Mrs. Arrow, he"
+	.ascii "Zoda was on the mountain looking"
 	TextEnd
 Episode20_Line16:
-	.ascii "attacked her and threw her into"
+	.ascii "for a treasure he had lost, and"
 	TextEnd
 Episode20_Line17:
-	.ascii "a crevasse."
+	.ascii "when he saw Mrs. Arrow, he"
 	TextEnd
 Episode20_Line18:
-	.ascii "In fact, this crevasse was the"
+	.ascii "attacked her and threw her into"
 	TextEnd
 Episode20_Line19:
-	.ascii "location of the treasure that"
+	.ascii "a crevasse."
 	TextEnd
 Episode20_Line20:
-	.ascii "Zoda was looking for."
+	.ascii ""
 	TextEnd
 Episode20_Line21:
-	.ascii "Ryu and Super Arrow fight with"
+	.ascii "In fact, this crevasse was the"
 	TextEnd
 Episode20_Line22:
-	.ascii "Zoda. Zoda runs away and Ryu"
+	.ascii "location of the treasure that"
 	TextEnd
 Episode20_Line23:
-	.ascii "and Zoda pull Mrs. Arrow from"
+	.ascii "Zoda was looking for."
 	TextEnd
 Episode20_Line24:
-	.ascii "the crevasse. And Super Arrow,"
+	.ascii ""
 	TextEnd
 Episode20_Line25:
-	.ascii "who until then had never liked"
+	.ascii "Ryu and Super Arrow fight with"
 	TextEnd
 Episode20_Line26:
-	.ascii "cold weather, realizes that he"
+	.ascii "Zoda. Zoda runs away and Ryu"
 	TextEnd
 Episode20_Line27:
+	.ascii "and Zoda pull Mrs. Arrow from"
+	TextEnd
+Episode20_Line28:
+	.ascii "the crevasse. And Super Arrow,"
+	TextEnd
+Episode20_Line29:
+	.ascii "who until then had never liked"
+	TextEnd
+Episode20_Line30:
+	.ascii "cold weather, realizes that he"
+	TextEnd
+Episode20_Line31:
 	.ascii "no longer minds it."
 	TextEnd
 
