@@ -60,7 +60,7 @@ Episode22_Line6:
 	.ascii "thought, 'just like me'."
 	TextEnd
 Episode22_Line7:
-	.ascii ""
+	.ascii TextNL
 	TextEnd
 Episode22_Line8:
 	.ascii "Jody was working on repairing a"
@@ -90,7 +90,7 @@ Episode22_Line16:
 	.ascii "her; she was in a pinch."
 	TextEnd
 Episode22_Line17:
-	.ascii ""
+	.ascii TextNL
 	TextEnd
 Episode22_Line18:
 	.ascii "To save Jody, Ryu and the rest"
@@ -138,7 +138,7 @@ Episode22_Line32:
 	.ascii "without trouble."
 	TextEnd
 Episode22_Line33:
-	.ascii ""
+	.ascii TextNL
 	TextEnd
 Episode22_Line34:
 	.ascii "What exactly was the secret of"
