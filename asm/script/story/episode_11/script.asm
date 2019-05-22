@@ -34,7 +34,7 @@ StoryEpisode11PointerList:
 	.word EOF
 
 Episode11_Line1:
-	.ascii "Ryu and friends head off to the"
+	.ascii "Ryu and friends head off to"
 	TextEnd
 Episode11_Line2:
 	.ascii "planet Hell to participate in a"
@@ -70,7 +70,7 @@ Episode11_Line12:
 	.ascii "the Dragon Bird, starts the"
 	TextEnd
 Episode11_Line13:
-	.ascii "machine up, and drives away in it."
+	.ascii "engine, and drives away with it !"
 	TextEnd
 Episode11_Line14:
 	.ascii "Falcon appears mysteriously and"

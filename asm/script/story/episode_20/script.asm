@@ -118,7 +118,7 @@ Episode20_Line27:
 	.ascii "and Zoda pull Mrs. Arrow from"
 	TextEnd
 Episode20_Line28:
-	.ascii "the crevasse. And Super Arrow,"
+	.ascii "the crevasse. Super Arrow,"
 	TextEnd
 Episode20_Line29:
 	.ascii "who until then had never liked"

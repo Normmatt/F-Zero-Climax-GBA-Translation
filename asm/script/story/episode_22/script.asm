@@ -54,7 +54,7 @@ Episode22_Line4:
 	.ascii "had no idea who had created the"
 	TextEnd
 Episode22_Line5:
-	.ascii "ending to his Dargon Bird, and"
+	.ascii "ending to his Dragon Bird, and" ;engine instead of ending ?
 	TextEnd
 Episode22_Line6:
 	.ascii "thought, 'just like me'."
@@ -87,7 +87,7 @@ Episode22_Line15:
 	.ascii "Now Zoda's cronies were after"
 	TextEnd
 Episode22_Line16:
-	.ascii "her; she was in a pinch."
+	.ascii "her; she was in trouble !"
 	TextEnd
 Episode22_Line17:
 	.ascii ""
