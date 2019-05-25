@@ -53,7 +53,7 @@ Episode2_Line6:
 	.ascii "memories of his accident in his"
 	TextEnd
 Episode2_Line7:
-	.ascii "mind, Ryu always lost speed on"
+	.ascii "mind, Ryu always slows down in"
 	TextEnd
 Episode2_Line8:
 	.ascii "curves. This would prevent him"

@@ -56,7 +56,7 @@ Episode5_Line7:
 	.ascii "Brilliant appears. Jack, who has"
 	TextEnd
 Episode5_Line8:
-	.ascii "a weakness with women, is fooled"
+	.ascii "a weakness for women, is fooled"
 	TextEnd
 Episode5_Line9:
 	.ascii "by her charms and his F-Zero"

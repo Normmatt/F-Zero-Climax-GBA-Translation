@@ -58,16 +58,16 @@ Episode15_Line4:
 	.ascii "calls on the hitman Pico to"
 	TextEnd
 Episode15_Line5:
-	.ascii "eliminate Galactic Police chief"
+	.ascii "eliminate the Galactic Police chief"
 	TextEnd
 Episode15_Line6:
 	.ascii "John Tanaka."
 	TextEnd
 Episode15_Line7:
-	.ascii "Tanaka, having no idea that he's"
+	.ascii "Tanaka, having no idea that he is"
 	TextEnd
 Episode15_Line8:
-	.ascii "been targeted, is on his way to a"
+	.ascii "being targeted, is on his way to a"
 	TextEnd
 Episode15_Line9:
 	.ascii "dinner show starring his favorite"
@@ -76,7 +76,7 @@ Episode15_Line10:
 	.ascii "singer, Kate Alen. This is where"
 	TextEnd
 Episode15_Line11:
-	.ascii "Pico attacks him."
+	.ascii "Pico attacked him."
 	TextEnd
 Episode15_Line12:
 	.ascii "John Tanaka manages to escape"
@@ -103,13 +103,13 @@ Episode15_Line19:
 	.ascii "escapes."
 	TextEnd
 Episode15_Line20:
-	.ascii "On the large passenger ship"
+	.ascii "However, on the large passenger ship"
 	TextEnd
 Episode15_Line21:
 	.ascii "where the show is taking place,"
 	TextEnd
 Episode15_Line22:
-	.ascii "however, Zoda is attempting to"
+	.ascii "Zoda is attempting to"
 	TextEnd
 Episode15_Line23:
 	.ascii "steal valuable goods from the"
@@ -139,7 +139,7 @@ Episode15_Line31:
 	.ascii "order to dispose of him. Here he"
 	TextEnd
 Episode15_Line32:
-	.ascii "is spotted by Ryu andhis friends,"
+	.ascii "is spotted by Ryu and his friends,"
 	TextEnd
 Episode15_Line33:
 	.ascii "who are on board looking for"

@@ -44,7 +44,7 @@ StoryEpisode17PointerList:
 	.word EOF
 
 Episode17_Line1:
-	.ascii "Having repeatedly endured togh"
+	.ascii "Having repeatedly endured tough"
 	TextEnd
 Episode17_Line2:
 	.ascii "races, the Dragon Bird has"

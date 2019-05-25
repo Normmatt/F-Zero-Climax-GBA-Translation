@@ -44,7 +44,7 @@ Episode12_Line1:
 	.ascii "Zoda's lead is abruptly taken"
 	TextEnd
 Episode12_Line2:
-	.ascii "away by supposed ally Miss Killer."
+	.ascii "away by his supposed ally, Miss Killer."
 	TextEnd
 Episode12_Line3:
 	.ascii "His machine breaks down, leaving"

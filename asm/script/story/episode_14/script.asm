@@ -48,7 +48,7 @@ Episode14_Line2:
 	.ascii "to defeat Ryu in a race, and he"
 	TextEnd
 Episode14_Line3:
-	.ascii "meets with the \"ironman\" Silver"
+	.ascii "meets with the \"Ironman\" Silver"
 	TextEnd
 Episode14_Line4:
 	.ascii "Neelsen, still going strong at"

@@ -62,13 +62,13 @@ Episode6_Line10:
 	.ascii "by someone, and secret"
 	TextEnd
 Episode6_Line11:
-	.ascii "information in his core memory"
+	.ascii "information stored in his memory"
 	TextEnd
 Episode6_Line12:
-	.ascii "banks is dumped."
+	.ascii "banks is stolen."
 	TextEnd
 Episode6_Line13:
-	.ascii "In fact, this attacker was Kate."
+	.ascii "In fact, the attacker was Kate."
 	TextEnd
 Episode6_Line14:
 	.ascii "She was suspicious of Ryu and"

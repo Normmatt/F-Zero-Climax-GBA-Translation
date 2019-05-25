@@ -130,7 +130,7 @@ Episode21_Line27:
 	.ascii "be the favorite to win."
 	TextEnd
 Episode21_Line28:
-	.ascii "But the woman-guised Ryu and"
+	.ascii "But the disguised Ryu and"
 	TextEnd
 Episode21_Line29:
 	.ascii "Jack are there to save Lucy."

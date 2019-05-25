@@ -38,7 +38,7 @@ Episode7_Line1:
 	.ascii "Returning home from a race, Ryu"
 	TextEnd
 Episode7_Line2:
-	.ascii "sees a couple (named 'Truecome'"
+	.ascii "sees a couple (named 'Cometrue'"
 	TextEnd
 Episode7_Line3:
 	.ascii "and 'Dream') in a luxurious car"
@@ -53,7 +53,7 @@ Episode7_Line6:
 	.ascii "to their house in thanks."
 	TextEnd
 Episode7_Line7:
-	.ascii "But Truecome locks Ryu in the"
+	.ascii "But Cometrue locks Ryu in the"
 	TextEnd
 Episode7_Line8:
 	.ascii "house. He had been ordered by"
@@ -62,7 +62,7 @@ Episode7_Line9:
 	.ascii "Michael Chain, leader of the"
 	TextEnd
 Episode7_Line10:
-	.ascii "gang, to entrap him. Michael"
+	.ascii "gang, to trap him. Michael"
 	TextEnd
 Episode7_Line11:
 	.ascii "wanted the elite pilots out of"
@@ -74,7 +74,7 @@ Episode7_Line13:
 	.ascii "the"
 	TextEnd
 Episode7_Line14:
-	.ascii "prize money. Truecome was"
+	.ascii "prize money. Cometrue was"
 	TextEnd
 Episode7_Line15:
 	.ascii "obeying him because he wanted to"
@@ -92,10 +92,10 @@ Episode7_Line19:
 	.ascii "she just wanted to be with"
 	TextEnd
 Episode7_Line20:
-	.ascii "Truecome. She convinced"
+	.ascii "Cometrue. She convinced"
 	TextEnd
 Episode7_Line21:
-	.ascii "Truecome to set Ryu free."
+	.ascii "Cometrue to set Ryu free."
 	TextEnd
 Episode7_Line22:
 	.ascii "But then, Michael came to attack"
@@ -107,7 +107,7 @@ Episode7_Line24:
 	.ascii "of him."
 	TextEnd
 Episode7_Line25:
-	.ascii "Truecome and Dream were able to"
+	.ascii "Cometrue and Dream were able to"
 	TextEnd
 Episode7_Line26:
 	.ascii "marry without the hopes for a"

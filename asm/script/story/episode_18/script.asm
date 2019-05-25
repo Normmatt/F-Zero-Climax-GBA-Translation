@@ -76,10 +76,10 @@ Episode18_Line12:
 	.ascii "Falcon House.  As soon as"
 	TextEnd
 Episode18_Line13:
-	.ascii "ske asks what Clank is doing"
+	.ascii "she asks what Clank is doing"
 	TextEnd
 Episode18_Line14:
-	.ascii "there, the nefarious Zoda"
+	.ascii "here, the nefarious Zoda"
 	TextEnd
 Episode18_Line15:
 	.ascii "appears.  Before getting an"
@@ -94,7 +94,7 @@ Episode18_Line18:
 	.ascii "What Zoda is after is a computer"
 	TextEnd
 Episode18_Line19:
-	.ascii "virus in Clank's possession.  A"
+	.ascii "virus in Clank's possession. One"
 	TextEnd
 Episode18_Line20:
 	.ascii "year ago, Zoda had ordered a"
