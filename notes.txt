@@ -7,11 +7,11 @@ Relevant Offsets
 37CBCC - Font Image Data
 CF7BAC - Story Titles Pointers
 CF9D5C - Story Episodes Pointers
-CF9E58 - Pilot Profiles Pointers
+CF9E54 - Pilot Profiles Pointers
 DCA820 - EoF Padding
 
 ============================================================
-Menu Data Pointers
+Menu Data Pointers - 063608
 ============================================================
 
 Data Structure (8 bytes)
@@ -23,7 +23,7 @@ Data Structure (8 bytes)
   pointer. I haven't looked into it
 
 ============================================================
-Font Image Data
+Font Image Data - 37CBCC
 ============================================================
 
 Character Structure
@@ -38,7 +38,7 @@ Character Structure
   font definition
 
 ============================================================
-Story Titles Pointers
+Story Titles Pointers - CF7BAC
 ============================================================
 
 51 Unsigned Int32's that point to the image data for each
@@ -54,7 +54,7 @@ Image Structure
 * Rows are arranged horizontally for title image
 
 ============================================================
-Story Episodes Pointers
+Story Episodes Pointers - CF9D5C
 ============================================================
 
 51 Unsigned Int32's that point to individual pointer tables
@@ -74,19 +74,20 @@ Diagram:
 * All lines' text data must begin on a 4-byte boundary
 
 ============================================================
-Pilot Profiles Pointers
+Pilot Profiles Pointers - CF9E54
 ============================================================
 
 Data Structure (12 bytes)
+  Blood type           - Byte
+  Age                  - Byte
+  Month of birth       - Byte
+  Day of birth         - Byte
   Pilot Text Pointer   - Unsigned Int32
   Machine Text Pointer - Unsigned Int32
-  Unknown 1            - Unsigned Int32
 
 * 38 structures, one for each pilot, in the order they
   appear on the Pilot Profiles menu; left-to-right,
   top-to-bottom
-* Unknown 1 could be just about anything. I haven't looked
-  into it
 * Pilot and Machine text must begin on a 4-byte boundary
 
 ============================================================

@@ -12,7 +12,7 @@ TextNL equ 0x0A
 TextEnd equ .byte 0x0
 
 .org 0x08CF9E54
-ProfileInfoList:
+ProfileInfoArray:
 	; Captain Falcon
 	.byte 0x00 ; BloodType
 	.byte 0x00 ; Age
