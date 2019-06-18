@@ -45,7 +45,6 @@ HandleCharacter:
 	;If it makes it here then its within the ASCII range
 	ldr r3, =WidthTable-0x20
 	ldrb r3, [r3,r0]
-	;mov r3, #0x08 ; Width
 	
 	LDRH    R1, [R4,#0x10]
 	ADD     R1, R1, R3
