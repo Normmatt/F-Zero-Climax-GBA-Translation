@@ -149,7 +149,7 @@ namespace ProfileTranslatorTool
             output += Environment.NewLine;
 
             output += Environment.NewLine;
-            output += String.Format(".org 0x08DE0000") + Environment.NewLine;
+            output += String.Format(".org 0x08DF0000") + Environment.NewLine;
             output += Environment.NewLine;
 
             for (int i = 0; i < profileList.Profiles.Count; i++)
