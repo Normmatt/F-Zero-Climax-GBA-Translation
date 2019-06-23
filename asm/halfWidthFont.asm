@@ -16,7 +16,6 @@ here:
 
 .thumb
 .org 0x0805B854
-	;mov r1, #0xC        ; character width
 	mov r1, #0x8        ; character width
 	
 .org 0x080430AE
