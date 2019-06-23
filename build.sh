@@ -1,5 +1,6 @@
 rom=${1:-"rom/input.gba"}
 out_rom=${2:-"rom/output.gba"}
+diff=${3:-"rom/patch.diff"}
 
 # Checks that the rom is the correct one.
 if [ ! -w "$rom" ] ; then
@@ -32,3 +33,7 @@ armips -erroronwarning asm/misc.asm
 armips -erroronwarning asm/variableWidthFont.asm
 armips -erroronwarning asm/script/story/story.asm
 armips -erroronwarning asm/script/profiles/profiles.asm
+
+# Generate a diff that can be applied to an existing ROM.
+bsdiff $rom $out_rom $diff
+
