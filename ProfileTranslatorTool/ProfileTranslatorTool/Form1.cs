@@ -38,7 +38,7 @@ namespace ProfileTranslatorTool
         private Graphics g;
         private Graphics g2;
 
-        private const int maxWidth = 177;
+        private const int maxWidth = 108;
 
         /// <summary>
         ///
@@ -492,6 +492,7 @@ namespace ProfileTranslatorTool
         private void button5_Click(object sender, EventArgs e)
         {
             textBox2.Text = FormatString(textBox2.Text);
+            textBox3.Text = FormatString(textBox3.Text);
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
