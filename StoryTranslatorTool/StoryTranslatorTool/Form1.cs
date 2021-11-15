@@ -118,6 +118,7 @@ namespace StoryTranslatorTool
         private string MakeStoryFileString()
         {
             var output = " ; F-Zero Climax Translation by Normmatt" + Environment.NewLine;
+            output += " ; Western languages support (Windows-1252) added by h3rmit" + Environment.NewLine;
 
             output += Environment.NewLine;
             output += String.Format(".gba\t\t\t\t; Set the architecture to GBA") + Environment.NewLine;
@@ -155,6 +156,12 @@ namespace StoryTranslatorTool
             output += String.Format(".byte 0x82,0x64,0x82,0x6E,0x82,0x65,0,0 ;EOF in SJIS") + Environment.NewLine;
             output += Environment.NewLine;
 
+            if (chkSupport1252.Checked)
+            {
+            	output += ".loadtable \"../../bin/cp1252.tbl\"" + Environment.NewLine;
+            	output += Environment.NewLine;
+            }
+            
             for (int i = 0; i < storyList.Stories.Count; i++)
             {
                 output += String.Format("\t.include \"episode_{0}/script.asm\"", i + 1) + Environment.NewLine;
@@ -187,6 +194,7 @@ namespace StoryTranslatorTool
             textBox2.Text = newText;
 
             var output = " ; F-Zero Climax Translation by Normmatt" + Environment.NewLine;
+            output += " ; Western languages support (Windows-1252) added by h3rmit" + Environment.NewLine;
 
             output += Environment.NewLine;
             output += String.Format(".align 4") + Environment.NewLine;
@@ -204,7 +212,13 @@ namespace StoryTranslatorTool
             for (int i = 0; i < textBox2.Lines.Length; i++)
             {
                 output += String.Format("Episode{0}_Line{1}:", id+1, i + 1) + Environment.NewLine;
-                output += String.Format("\t.ascii \"{0}\"", textBox2.Lines[i].Replace("\"", "\\\"")) + Environment.NewLine;
+                
+                if (chkSupport1252.Checked)
+               		output += String.Format("\t.string \"{0}\"", textBox2.Lines[i].Replace("\"", "\\\"")) + Environment.NewLine;
+               	else
+                	output += String.Format("\t.ascii \"{0}\"", textBox2.Lines[i].Replace("\"", "\\\"")) + Environment.NewLine;
+
+                
                 output += "\tTextEnd" + Environment.NewLine;
             }
 
@@ -267,7 +281,7 @@ namespace StoryTranslatorTool
             for (int j = 0; j < palette.Length; j++)
                 palette[j] = PALfilePalette[j + 16 * palIndex];
 
-            rawGraphics = ROM.GetData(0x37CBCC, 0x8000);
+            rawGraphics = ROM.GetData(0x37CBCC, 0x10000);
 
             palette[0] = Color.Transparent;
             palette[3] = palette[6];
