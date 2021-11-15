@@ -39,6 +39,9 @@ HandleCharacter:
 	cmp r0, #0x1F
 	bls HandleCharacter_NoneASCII
 	
+	cmp r0, #0xFF
+	beq HandleCharacter_Windows1252
+	
 	cmp r0, #0x7D
 	bhi HandleCharacter_NoneASCII
 	
@@ -53,6 +56,20 @@ HandleCharacter:
 	add r3, r3, r1 ;Force alignment if its out
 	strb r3, [r4,#2] ; Store current width
 	add r5, #1
+	b HandleCharacter_Continue
+
+HandleCharacter_Windows1252:
+	;If it makes it here then its within the Windows-1252 range (0x80 and beyond)
+	ldrb r0, [r5,#1]
+	ldr r3, =WidthTable-0x20
+	ldrb r3, [r3,r0]
+	LDRH    R1, [R4,#0x10]
+	ADD     R1, R1, R3
+	mov r2, #1
+	and r1, r2
+	add r3, r3, r1 ;Force alignment if its out
+	strb r3, [r4,#2] ; Store current width
+	add r5, #2
 	b HandleCharacter_Continue
 	
 HandleCharacter_NoneASCII:

@@ -152,6 +152,12 @@ namespace ProfileTranslatorTool
             output += String.Format(".org 0x08DF0000") + Environment.NewLine;
             output += Environment.NewLine;
 
+            if (chkSupport1252.Checked)
+            {
+            	output += ".loadtable \"../../bin/cp1252.tbl\"" + Environment.NewLine;
+            	output += Environment.NewLine;
+            }
+            
             for (int i = 0; i < profileList.Profiles.Count; i++)
             {
                 output += String.Format("\t.include \"profile_{0}/script.asm\"", i + 1) + Environment.NewLine;
@@ -174,17 +180,22 @@ namespace ProfileTranslatorTool
             var newText2 = FormatString(oldText2).Replace("\"", "\\\"").Replace("\r", "").Replace("\n", "\",TextNL,\"").Replace(",\"\"", "");
 
             var output = " ; F-Zero Climax Translation by Normmatt" + Environment.NewLine;
+            output += " ; Western languages support (Windows-1252) added by h3rmit" + Environment.NewLine;
 
             output += Environment.NewLine;
             output += String.Format(".align 4") + Environment.NewLine;
 
             output += String.Format("Profile{0}_CharacterProfile:", id + 1) + Environment.NewLine;
-            output += String.Format("\t.sjis \"{0}\"", newText) + Environment.NewLine;
+            output += String.Format("\t.string \"{0}\"", newText) + Environment.NewLine;
 
             output += Environment.NewLine;
             output += String.Format(".align 4") + Environment.NewLine;
             output += String.Format("Profile{0}_VehicleProfile:", id + 1) + Environment.NewLine;
-            output += String.Format("\t.sjis \"{0}\"", newText2) + Environment.NewLine;
+            
+            if (chkSupport1252.Checked)
+            	output += String.Format("\t.string \"{0}\"", newText2) + Environment.NewLine;
+            else
+            	output += String.Format("\t.sjis \"{0}\"", newText2) + Environment.NewLine;
 
             output += Environment.NewLine;
             output += Environment.NewLine;
@@ -243,7 +254,7 @@ namespace ProfileTranslatorTool
             for (int j = 0; j < palette.Length; j++)
                 palette[j] = PALfilePalette[j + 16 * palIndex];
 
-            rawGraphics = ROM.GetData(0x37CBCC, 0x8000);
+            rawGraphics = ROM.GetData(0x37CBCC, 0x10000);
 
             palette[0] = Color.Transparent;
             palette[3] = palette[6];
@@ -369,7 +380,7 @@ namespace ProfileTranslatorTool
                 foreach (var c in textBox2.Lines[index])
                 {
                     var width = 16;
-                    if(c < 0x80)
+                    if(c < 0x100)
                         width = widthTable[c - 32];
                     var sRect = new Rectangle(0, (c - 32)*16, width, 16);
                     var dRect = new Rectangle(x, y, width, 16);
@@ -404,7 +415,7 @@ namespace ProfileTranslatorTool
                 foreach (var c in textBox3.Lines[index])
                 {
                     var width = 16;
-                    if (c < 0x80)
+                    if (c < 0x100)
                         width = widthTable[c - 32];
                     var sRect = new Rectangle(0, (c - 32) * 16, width, 16);
                     var dRect = new Rectangle(x, y, width, 16);

@@ -43,6 +43,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.button5 = new System.Windows.Forms.Button();
+            this.chkSupport1252 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -51,7 +52,7 @@
             // listBox1
             // 
             this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+                                    | System.Windows.Forms.AnchorStyles.Left)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(12, 12);
             this.listBox1.Name = "listBox1";
@@ -63,7 +64,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(211, 35);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(236, 20);
+            this.textBox1.Size = new System.Drawing.Size(236, 21);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -72,14 +73,14 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(208, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 13);
+            this.label1.Size = new System.Drawing.Size(31, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Title:";
             // 
             // textBox2
             // 
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+                                    | System.Windows.Forms.AnchorStyles.Left)));
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(211, 78);
             this.textBox2.Multiline = true;
@@ -94,14 +95,14 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(208, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Story:";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+                                    | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox1.Location = new System.Drawing.Point(471, 79);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(256, 406);
@@ -113,14 +114,14 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(468, 20);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 13);
+            this.label3.Size = new System.Drawing.Size(49, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Preview:";
             // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button1.Location = new System.Drawing.Point(379, 462);
+            this.button1.Location = new System.Drawing.Point(383, 461);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(64, 23);
             this.button1.TabIndex = 4;
@@ -169,9 +170,9 @@
             // 
             this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(13, 491);
+            this.button4.Location = new System.Drawing.Point(12, 491);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(714, 52);
+            this.button4.Size = new System.Drawing.Size(435, 52);
             this.button4.TabIndex = 13;
             this.button4.Text = "&Export";
             this.button4.UseVisualStyleBackColor = true;
@@ -180,7 +181,7 @@
             // vScrollBar1
             // 
             this.vScrollBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+                                    | System.Windows.Forms.AnchorStyles.Left)));
             this.vScrollBar1.LargeChange = 1;
             this.vScrollBar1.Location = new System.Drawing.Point(709, 79);
             this.vScrollBar1.Name = "vScrollBar1";
@@ -191,7 +192,7 @@
             // button5
             // 
             this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button5.Location = new System.Drawing.Point(295, 462);
+            this.button5.Location = new System.Drawing.Point(297, 462);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(64, 23);
             this.button5.TabIndex = 4;
@@ -199,11 +200,22 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // chkSupport1252
+            // 
+            this.chkSupport1252.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.chkSupport1252.Location = new System.Drawing.Point(471, 491);
+            this.chkSupport1252.Name = "chkSupport1252";
+            this.chkSupport1252.Size = new System.Drawing.Size(152, 52);
+            this.chkSupport1252.TabIndex = 15;
+            this.chkSupport1252.Text = "Export with Windows-1252 support";
+            this.chkSupport1252.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1084, 555);
+            this.ClientSize = new System.Drawing.Size(917, 555);
+            this.Controls.Add(this.chkSupport1252);
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -227,8 +239,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
+        private System.Windows.Forms.CheckBox chkSupport1252;
 
         #endregion
 
